@@ -14,9 +14,9 @@ export default function Navbar(){
                     <RxHamburgerMenu />
                 </div>
                 <ul className={menuOpen ? "flex flex-col gap-5 w-screen h-screen " : "hidden md:flex"}>
-                    <li><NavLink to='/about' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(!menuOpen)}>About</NavLink></li>
-                    <li><NavLink to='/music' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(!menuOpen)}>Music</NavLink></li>
-                    <li><NavLink to='contact' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(!menuOpen)}>Contact</NavLink></li>
+                    <li><NavLink to='/about' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(false)}>About</NavLink></li>
+                    <li><NavLink to='/music' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(false)}>Music</NavLink></li>
+                    <li><NavLink to='contact' className=' hover:bg-slate-700 p-2 rounded' onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
                 </ul>
            
             
