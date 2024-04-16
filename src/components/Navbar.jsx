@@ -8,7 +8,7 @@ export default function Navbar(){
    
     return(
         <nav className="flex flex-col items-start gap-5 md:flex-row md:justify-between md:items-center bg-slate-900 text-white p-5 sticky top-0">
-            <Link to='/' className="text-3xl">Home</Link>
+            <Link to='/' className="text-3xl" onClick={() => setMenuOpen(false)}>Home</Link>
             
                 <div className="text-2xl md:hidden cursor-pointer absolute top-5 right-5" onClick={() => setMenuOpen(!menuOpen)}>
                     <RxHamburgerMenu />
