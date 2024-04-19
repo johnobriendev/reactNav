@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
-    <div className=''>
+    <div className='flex flex-col'>
       <Navbar />
       <Outlet />
       <Footer/>
