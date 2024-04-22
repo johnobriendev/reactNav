@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
-    <div className='flex flex-col w-full h-screen'>
+    <div className='flex flex-col justify-between w-full h-auto md:h-screen'>
       <Navbar />
       <Outlet />
       <Footer/>
